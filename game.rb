@@ -1,8 +1,9 @@
 require_relative 'basic_game.rb'
 require_relative 'strategy.rb'
 
+#SWITCH
 mode = 'live'
-ap "Launching"
+
 if mode == 'sandbox'
 	puts "here"
 	MY_PLAYER_KEY = '728f53dd-a5dc-4582-8864-be37576b9592'
@@ -12,21 +13,7 @@ elsif mode == 'live'
 	URL = "http://no-limit-code-em.com/api/players/"
 end
 
-# while true
-#   sleep 1
-#   #check for errors
-#   puts "I am running"
-#   turn_data = game_state(MY_PLAYER_KEY)
-#   ap turn_data
-#   if turn?(turn_data)
-#   	action = action(turn_data)
-#   	res = post_response(MY_PLAYER_KEY, action)
-#   	ap res.body
-#   end
-# end	
-
-
-# TEST SHIT
+ap "Launching"
 while true
   sleep 1
   #check for errors
