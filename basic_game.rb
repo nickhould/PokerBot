@@ -11,7 +11,6 @@ def game_state(key)
     http.request(req)
   }
   response = res.body
-  JSON.parse(response)
 end
 
 def post_response(key, action)

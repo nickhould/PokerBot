@@ -1,0 +1,1 @@
+Poker bot designed for the Enova Hackathon. Basic communication working.
